@@ -3,33 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700,800" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700,800,900" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Hosting</title>
 </head>
 <body>
-    <div class="container">
+
         <header>
-            <div class="row rowTopBar clearfix">
-                <div class="logo col">
-                    <img src="img/logo.png" alt="logo">
+            <div class="container">
+                <div class="row rowTopBar clearfix">
+                    <div class="logo col">
+                        <img src="img/logo.png" alt="logo">
+                    </div>
+                    <ul class="col topBar">
+                        <li class="login">
+                            <a href="">Login</a>
+                        </li>
+                        <li class="register">
+                            <a href="">Register</a>
+                        </li>
+                        <li class="support">
+                            Support: <a href="mailto:info@webhosting.com">info@webhosting.com</a>
+                        </li>
+                    </ul>
                 </div>
-                <ul class="col topBar">
-                    <li class="login">
-                        <a href="">Login</a>
-                    </li>
-                    <li class="register">
-                        <a href="">Register</a>
-                    </li>
-                    <li class="support">
-                        Support: <a href="mailto:info@webhosting.com">info@webhosting.com</a>
-                    </li>
-                </ul>
             </div>
         </header>
         <nav>
-            <ul class="menu">
-                <li><a href="">Home</a></li>
+            <div class="container">
+            <ul class="menu clearfix">
+                <li class="active"><a href="">Home</a></li>
                 <li><a href="">About Us</a></li>
                 <li><a href="">Service</a></li>
                 <li><a href="">Hosting Plans</a></li>
@@ -40,7 +44,149 @@
                 <li><a href="">Support</a></li>
                 <li><a href="">Contact us</a></li>
             </ul>
+            </div>
         </nav>
     </div>
+
+    <section class="mainSlider slider" data-slider="">
+
+    </section>
+
+    <section class="search">
+        <div class="container clearfix">
+            <div class="headCol">
+                <div class="headBlock">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                    <p class="smallHead">Search your</p>
+                    <p class="boldHead">Domain</p>
+                </div>
+            </div>
+            <div class="col formCol">
+                <form action="" method="POST" name="searchForm" class="searchForm">
+                    <input type="text" name="domainName" placeholder="Enter your domain name">
+                    <select class="yearDomain">
+                        <option value="1month">1 month</option>
+                        <option value="3month">3 month</option>
+                        <option value="6month">6 month</option>
+                        <option value="1year" selected>Year (0-1 year)</option>
+                        <option value="1-2">2 years</option>
+                        <option value="2-3">3 years</option>
+                        <option value="unlimited">Unlimited</option>
+                    </select>
+                    <select class="dotDomain">
+                        <option value=".com">.com</option>
+                        <option value=".com.ua">.com.ua</option>
+                        <option value=".ru">.ru</option>
+                        <option value=".net">.net</option>
+                        <option value=".org">.org</option>
+                    </select>
+                    <button type="submit" class="customButton searchButton">Search</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="benefits section clearfix">
+        <div class="container">
+            <div class="headBlock">
+                <p class="smallHead">our</p>
+                <p class="boldHead">benefits</p>
+            </div>
+            <ul class="listIcons">
+                <li class="clearfix">
+                    <div class="col colIcon">
+                        <i class="fa fa-ioxhost" aria-hidden="true"></i>
+                    </div>
+                    <div class="col colDescIcon">
+                        <p class="iconHead">99.9% Uptime</p>
+                        <p class="simpleP">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.
+                        </p>
+                    </div>
+                </li>
+                <li class="clearfix">
+                    <div class="col colIcon">
+                        <i class="fa fa-comments-o" aria-hidden="true"></i>
+                    </div>
+                    <div class="col colDescIcon">
+                        <p class="iconHead">24/7/365 Support</p>
+                        <p class="simpleP">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.
+                        </p>
+                    </div>
+                </li>
+                <li class="clearfix">
+                    <div class="col colIcon">
+                        <i class="fa fa-laptop" aria-hidden="true"></i>
+                    </div>
+                    <div class="col colDescIcon">
+                        <p class="iconHead">protect your pc</p>
+                        <p class="simpleP">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.
+                        </p>
+                    </div>
+                </li>
+                <li class="clearfix">
+                    <div class="col colIcon">
+                        <i class="fa fa-cog" aria-hidden="true"></i>
+                    </div>
+                    <div class="col colDescIcon">
+                        <p class="iconHead">DNS control</p>
+                        <p class="simpleP">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.
+                        </p>
+                    </div>
+                </li>
+                <li class="clearfix">
+                    <div class="col colIcon">
+                        <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                    </div>
+                    <div class="col colDescIcon">
+                        <p class="iconHead">domain transfer</p>
+                        <p class="simpleP">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.
+                        </p>
+                    </div>
+                </li>
+                <li class="clearfix">
+                    <div class="col colIcon">
+                        <i class="fa fa-lock" aria-hidden="true"></i>
+                    </div>
+                    <div class="col colDescIcon">
+                        <p class="iconHead">100% security</p>
+                        <p class="simpleP">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="section clearfix sail">
+        <div class="container">
+            <div class="col colSail">
+                <div class="headBlock">
+                    <p class="smallHead">now</p>
+                    <p class="boldHead">what is hot</p>
+                </div>
+                <div class="row clearfix">
+                    <div class="col">
+                        <div class="offer">
+                            <p class="getUpTo">Get up To</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col colFeatures">
+                <div class="headBlock">
+                    <p class="smallHead">our</p>
+                    <p class="boldHead">features</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/main.js"></script>
 </body>
 </html>
