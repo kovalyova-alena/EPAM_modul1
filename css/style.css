@@ -1,22 +1,6 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+* {
     margin: 0;
     padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
@@ -65,6 +49,12 @@ table {
 
 body {
     font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+img {
+    vertical-align: middle;
+    max-width: 100%;
 }
 
 
@@ -74,6 +64,8 @@ body {
 
 .col {
     float: left;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .row {
@@ -82,6 +74,19 @@ body {
 
 .container {
     display: block;
+    margin: 0 auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.helper {
+    vertical-align: middle;
+    display: inline-block;
+    max-height: 45px;
 }
 
 @media (min-width: 1200px) {
@@ -105,16 +110,41 @@ body {
 
 /* ==================== HEADER =============*/
 .logo {
-    width: 30%;
+    width: 55%;
 }
 
 .topBar {
-    width: 70%;
+    width: 45%;
 }
 
-.support {
-    width: ;
+.topBar {
+    border-bottom: 1px solid #e1e9f2;
+    border-top: 1px solid #e1e9f2;
 }
+
+.topBar a {
+    text-decoration: none;
+    color: #9ba4b0;
+    font-size: 1em;
+}
+
+.topBar li {
+    float: right;
+    margin-right: 30px;
+}
+
+.rowTopBar {
+    line-height: 45px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+/* ==================== END HEADER =============*/
+
+/* ==================== NAV =============*/
+
+
+/* ==================== END NAV =============*/
 
 
 
