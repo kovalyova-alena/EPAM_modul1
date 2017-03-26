@@ -88,6 +88,15 @@ img {
     width: 25%;
 }
 
+.col-1-2 {
+    width: 50%;
+}
+
+.padding {
+    padding-left: 0;
+    padding-right: 0;
+}
+
 @media (min-width: 1200px) {
     .container {
         width: 1170px;
@@ -226,6 +235,52 @@ input, select, textarea {
 
 .priceBlock .price span {
     font-weight: 100;
+}
+
+.blockH1 {
+    padding-top: 6%;
+    padding-bottom: 6%;
+    max-height: 260px;
+}
+
+.blockH1 h1 {
+    font-size: 40px;
+    letter-spacing: 0.25px;
+    color: #fff;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.blockH1 p {
+    color: #fff;
+    font-weight: 100;
+    letter-spacing: 0.95px;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.blockquote {
+    color: #a0a9b6;
+    font: italic 400 13.5px/24px 'Open Sans';
+    border: 1px solid #dbeaee;
+    padding: 25px 35px;
+}
+
+.blockquote:before {
+    content: '\201C';
+    position: absolute;
+    font: bold 48px/31px Georgia;
+    letter-spacing: -0.25px;
+    color: #556b72;
+    top: -5px;
+    left: 10px;
+}
+
+.simpleBoldP {
+    color: #556b72;
+    font: 900 14px 'Open Sans', sans-serif;
+    text-transform: uppercase;
+
 }
     /* =========END CUSTOMS STYLES ==================*/
 /* ==================== HEADER =============*/
@@ -556,6 +611,7 @@ input, select, textarea {
 /* ====================FOOTER=============*/
 footer {
     background: #4c515b;
+    font-family: 'Open Sans', sans-serif;
 }
 .logoFooter {
     width: 28%;
@@ -572,7 +628,7 @@ footer {
 }
 
 .footerP {
-    font: 900 14px/27px 'Open Sans';
+    font: 900 14px/27px 'Open Sans', sans-serif;
     color: #fffbde;
     letter-spacing: 0.5px;
     text-transform: uppercase;
@@ -585,7 +641,7 @@ footer {
 .footerList li a,
 .footerContact a {
     color: #909aad;
-    font: 14px/32px 'Open Sans';
+    font: 14px/32px 'Open Sans', sans-serif;
     text-decoration: none;
 }
 
@@ -599,7 +655,7 @@ footer {
 
 .footerContact {
     color: #909aad;
-    font: 14px/32px 'Open Sans';
+    font: 14px/32px 'Open Sans', sans-serif;
 }
 
 .footerContact span {
@@ -641,12 +697,305 @@ footer {
 }
 
 .logoHosting {
-    font: 900 20px/44px 'Open Sans';
+    font: 900 20px/44px 'Open Sans', sans-serif;
     color: #e7f4f8;
     text-transform: uppercase;
 }
 
 /* ====================END FOOTER=============*/
+
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+/* ====================PAGE ABOUT US =================*/
+.aboutUsPage {
+    background: url("../img/about/hosting_one.jpg");
+}
+
+.rowDetails {
+    margin-top: 20px;
+}
+.detailsImg img {
+    width: 100%;
+    max-width: 560px;
+    max-height: 260px;
+    object-fit: cover;
+}
+
+.detailsImg {
+    padding-left: 0;
+}
+
+.detailsText {
+    padding-right: 0;
+    min-height: 260px;
+    position: relative;
+}
+
+.blockquoteAbout {
+    margin-top: 30px;
+    position: absolute;
+    bottom: 0;
+}
+
+.offers {
+    background: #e7f4f8;
+}
+
+.rowOffers {
+    margin-top:20px;
+}
+
+.offersImg {
+    padding-left: 0;
+}
+
+.offersImg img{
+    width: 100%;
+    object-fit: cover;
+    min-height: 300px;
+}
+
+.offers .customList li {
+    color: #a0a9b6;
+    line-height: 30px;
+}
+
+.offersText {
+    position: relative;
+    min-height: 300px;
+}
+
+.offersText p.simpleP {
+    margin-top: 10px;
+}
+
+.offersText .customButton {
+    display: block;
+    text-align: center;
+    width: 60%;
+    margin-top: 15px;
+    position: absolute;
+    bottom: 0;
+}
+
+.team {
+    background: #fff;
+}
+
+.teamImg {
+    object-fit: cover;
+    max-height: 260px;
+    max-width: 260px;
+    width: 100%;
+}
+
+.memberName {
+    float: left;
+    width: 50%;
+    margin-top: 20px;
+}
+
+.socialMember {
+    float: right;
+    width: auto;
+    margin-top: 20px;
+
+}
+
+.socialMember li {
+    float: left;
+    border: 1px solid #fff;
+    margin-left: 5px;
+}
+
+.member {
+    margin-top: 40px;
+}
+
+
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+/* ====================PAGE SERVICE =================*/
+
+.ourServicePage {
+    background: url("../img/about/hosting2.jpg");
+    background-size: cover;
+}
+
+.colIconServices {
+    width: 100%;
+}
+
+.colDescIconServices {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.hostingServices i {
+    font-size: 4em;
+    color: #ff8261;
+}
+
+.hostingServices i:before {
+    vertical-align: middle;
+}
+
+.colDescIconServices  .iconHead {
+    letter-spacing: 0.5px;
+}
+
+.hostingServices .listIcons {
+    margin-top: 30px;
+}
+
+.hostingServices .listIcons img {
+    width: 40px;
+    height: 35px;
+    object-fit: contain;
+}
+
+.featuredServices {
+    background: #e7f4f8;
+}
+
+.featured {
+    width: 66%;
+    border-right: 1px solid #fff;
+}
+
+.latestNews {
+    width: 34%;
+}
+
+.service  {
+    margin-top: 40px;
+}
+.serviceImg {
+    width: 34%;
+    float: left;
+}
+
+.serviceImg img {
+    max-width: 270px;
+    max-height: 160px;
+    object-fit: cover;
+    width: 100%;
+}
+.serviceDesc {
+    width: 66%;
+    padding-right: 0;
+}
+
+.serviceDesc .iconHead {
+    margin-top: 10px;
+}
+
+.latestNews .listIcons li {
+    width: 100%;
+}
+
+.latestNews .colIcon {
+    width: 33%;
+}
+
+.latestNews .colDescIcon {
+    width: 67%;
+    padding-right: 0;
+    margin-top: 10px;
+}
+.latestNews .colDescIcon a {
+    color: inherit;
+    text-decoration: none;
+}
+
+
+.circleNews {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #ff8261;
+    padding: 5px;
+}
+
+.circleNews .innerCircle {
+    border: 1px dotted #fff;
+    border-radius: 50%;
+    height: 100%;
+    text-align: center;
+}
+
+.circleNews .iconHead {
+    font-size: 14px;
+    color: #fff;
+    margin-top: 17px;
+    margin-bottom: 0;
+}
+
+.circleNews .date {
+    color: #fff;
+    text-transform: uppercase;
+    font: 400 14px 'Open Sans';
+}
+
+.listIcons .news1 {
+    margin-top: 40px;
+}
+
+.rowClient {
+    margin-top: 30px;
+    position: relative;
+
+}
+
+.colImgClient {
+    width: 15%;
+    padding-left: 0;
+
+}
+
+.colImgClient img {
+    width: 100%;
+    max-width: 170px;
+    max-height: 170px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.clientReview {
+    width: 85%;
+    margin-top: 30px;
+}
+
+.reviewP {
+    font-style: italic;
+}
+
+.By {
+    font: 400 14px 'Open Sans';
+    color: #556b72;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.dotsSlide {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.divDot {
+    width: 15px;
+    height: 15px;
+    border: 2px solid #ccdee3;
+    cursor: pointer;
+    border-radius: 50%;
+    float: left;
+    margin-left: 5px;
+}
+
+.divDot.activeDot {
+    border-color: #52cbf8;
+}
 
 
 
