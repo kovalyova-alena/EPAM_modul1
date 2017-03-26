@@ -92,6 +92,14 @@ img {
     width: 50%;
 }
 
+.col-1-3 {
+    width: 33.3%;
+}
+
+.col-2-3 {
+    width: 66.6%;
+}
+
 .padding {
     padding-left: 0;
     padding-right: 0;
@@ -226,14 +234,13 @@ input, select, textarea {
     text-transform: uppercase;
     color: #556b72;
 }
-
-.priceBlock .price {
+ .price {
     font-size: 50px;
     font-weight: 900;
     color: #556b72;
 }
 
-.priceBlock .price span {
+ .price span {
     font-weight: 100;
 }
 
@@ -428,7 +435,7 @@ input, select, textarea {
 .iconHead {
     font-size: 1.14em;
     font-weight: 900;
-    letter-spacing: 0.25px;
+    letter-spacing: 0.5px;
     color: rgb(85, 107, 114);
     text-transform: uppercase;
     line-height: 1.938;
@@ -998,8 +1005,170 @@ footer {
 }
 
 
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+/* ====================PAGE HOSTING PLANS =================*/
+
+.hostingPlansPage {
+    background: url("../img/about/hosting5.jpg") top;
+    background-size: cover;
+}
+
+.quad {
+    width: 70px;
+    height: 60px;
+    font: 900 30px 'Open Sans';
+    color: #fff;
+    background: #ff8261;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.ourHostingPage{
+    background: #e7f4f8;
+}
+
+.followSteps .colDescIcon {
+    margin-top: 12px;
+}
+
+.ourHostingPage .priceBlock {
+    background: #fff;
+}
+
+.rowPlans3Column {
+    margin-top: 20px;
+}
+
+.rowPlans3Column .signUpButton {
+    max-width: 110px;
+}
 
 
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+/* ====================DOMAIN PLANS =================*/
+.domainPage {
+    background:url("../img/about/hosting6.png") ;
+    background-size: cover;
+}
+
+.search.domainSearch .headBlock .smallHead:before {
+    display: block;
+}
 
 
+.domainSearch {
+    background: #fff;
+}
 
+.domainSearch .searchForm input {
+    width: 50%;
+}
+
+
+.domainSearch .searchForm button {
+    width: 17%;
+}
+
+.miniHead .smallHead {
+    font-size: 14px;
+    font-weight: 900;
+    margin-top: 70px;
+    color: #556b72;
+}
+
+.domainChargesImg {
+    padding-left: 0;
+}
+
+.domainChargesImg img {
+    max-width: 550px;
+    max-height: 155px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.domainTable {
+    max-height: 155px;
+}
+
+.domainTable table {
+    width: 100%;
+}
+
+.domainTable .price {
+    font-size: 30px;
+    margin-top: 3px;
+}
+
+.domainTable table tr {
+    border: 1px solid #d4e8ee;
+}
+
+.domainTable table td {
+    padding: 15px;
+}
+
+.nameDomain {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #556b72;
+    letter-spacing: 1px;
+}
+
+.rowDomains {
+    margin-top: 30px;
+}
+
+.innerRowDomains {
+    border-bottom: 1px solid #d5e7ed;
+    padding: 7px 0;
+}
+
+.lastRow {
+    border: 0;
+}
+
+.domain {
+    padding-left: 0;
+    margin-top: 10px;
+    color: #8d9198;
+}
+
+.domainLink {
+    display: block;
+    height: 34px;
+    line-height: 35px;
+    text-transform: none;
+    font-weight: 400;
+
+}
+
+.buttonRegisterDomain {
+    float: right;
+    width: 20%;
+    text-align: center;
+    padding-right: 0;
+}
+
+.newDomains {
+    background: #e7f4f8;
+}
+
+.padding-left{
+    padding-left: 0;
+}
+
+.padding-right {
+    padding-right: 0;
+}
+
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+/* ====================Blog Page =================*/
+
+.blogPage {
+    background: url("../img/about/about1.jpg");
+    background-size: cover;
+}
