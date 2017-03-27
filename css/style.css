@@ -172,6 +172,12 @@ input, select, textarea {
 
 }
 
+::-webkit-input-placeholder {color:#a0a9b6;font: 13.5px/56px 'Open Sans';}
+::-moz-placeholder          {color:#a0a9b6;font: 13.5px/56px 'Open Sans';}
+
+:-ms-input-placeholder      {color:#a0a9b6;font: 13.5px/56px 'Open Sans';}
+
+
 .customButton {
     color: #fff;
     font-size: 0.93em;
@@ -1172,3 +1178,303 @@ footer {
     background: url("../img/about/about1.jpg");
     background-size: cover;
 }
+
+.authorBlog:after {
+    content: '|';
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.rowArticleDetails {
+    margin-top: 20px;
+}
+
+.linkArticle {
+    text-decoration: none;
+    color: #556b72;
+}
+.authorBlog {
+    text-decoration: none;
+}
+
+
+.blogImg img{
+    display: inline-block;
+    max-width: 100%;
+    object-fit: cover;
+    width: 100%;
+    max-height: 380px;
+}
+
+.rowTextArticle {
+    margin-top: 25px;
+}
+
+.articleButton {
+    display: block;
+    width: 15%;
+    text-align: center;
+    max-width: 160px;
+    margin-top: 30px;
+}
+
+.rowBlogSocial {
+    border-bottom: 1px solid #d6e8ee;
+    border-top: 1px solid #d6e8ee;
+    margin-top: 35px;
+}
+.blogSocialList {
+
+}
+.blogSocialList > li {
+    float: left;
+    display: inline;
+    border-right: 1px solid #d6e8ee;
+    padding: 10px 15px;
+}
+
+.blogSocialList .firstLiBlob {
+    padding-left: 0;
+}
+
+.circleSmall {
+    width: 30px;
+    height: 30px;
+    background: #ff8261;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+    font-size: 12.5px;
+    padding-top: 9px;
+    float: left;
+    margin-right: 8px;
+}
+
+.blogSocialList .lastLiBlog {
+    border-right: 0;
+}
+
+.blogSocial {
+    display: inline-block;
+    margin-top: 3px;
+}
+
+.fa-heart-o:before {
+    content: "\f08a";
+    margin-top: 1px;
+    margin-left: -1px;
+    display: block;
+}
+
+.blogSocialList .socialList {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 0;
+    margin-left: 15px;
+}
+
+.blogSocialList .socialList i {
+    font-size: 16px;
+}
+
+.articleBlog {
+    margin-top: 50px;
+}
+
+.rowTextArticle .simpleP{
+    margin-bottom: 10px;
+}
+
+
+.blogSocialList .paginationBLog {
+    float: right;
+    width: auto;
+}
+
+.quadPagination {
+    width: 30px;
+    height: 30px;
+    color: #656d78;
+    font: 900 18px 'Open Sans';
+    background: transparent;
+    border: 1px solid #d6e8ee;
+    float: left;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.activePagination {
+    color: #fff;
+    background: #ff8261;
+    border: 0;
+    padding-top: 2px;
+}
+
+.rowAuthorPost {
+    background: #e7f4f8;
+    padding: 30px;
+    margin-top: 40px;
+}
+
+.colImgAuthor img {
+    width: 120px;
+    height: 120px;
+}
+
+.authorMessage {
+    width: 85%;
+    margin-top: 10px;
+    padding-right: 0;
+}
+
+.authorMessageP {
+    margin-top: 10px;
+    font-style: italic;
+}
+
+.customMessageBlog{
+    position: relative;
+    padding-right: 15px;
+}
+
+.buttonReply {
+    position:absolute;
+    top:0;
+    right: 0;
+}
+
+.buttonReply a {
+    padding: 8px 20px;
+}
+
+.ourBlog {
+    padding-bottom: 0;
+}
+
+.ourComments .customMessageBlog {
+    margin-top: 30px;
+}
+
+.rowComment {
+    border-top:  1px solid #d6e8ee;
+    padding-top: 30px;
+    clear: both;
+}
+
+.firstComment {
+    border-top: 0;
+}
+
+.answerComment {
+    float: right;
+    width: 85%;
+}
+
+.leaveComment {
+    background:#e7f4f8 ;
+}
+
+.leaveComment .smallHead:before {
+    display: none;
+}
+.leftInputs {
+    padding-left: 0;
+}
+.leftInputs input {
+    width: 100%;
+    height: 56px;
+    line-height: 56px;
+    margin-top: 10px;
+}
+
+.rightTextarea {
+    padding-right: 0;
+}
+
+.rightTextarea textarea{
+    width: 100%;
+    height: 188px;
+    margin-top: 10px;
+    line-height: 56px;
+}
+
+.submitComment {
+    float: right;
+    width: 20%;
+    max-width: 200px;
+    margin-top: 15px;
+}
+
+
+
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+/* ====================FAQ Page =================*/
+.FAQPage {
+    background: url("../img/about/hosting8.jpg") center;
+    background-size: cover;
+}
+
+.questionFAQ .listIcons li {
+    width: 50%;
+}
+
+.questionFAQ .colIcon {
+    width: 20%;
+}
+
+.questionFAQ .colIcon .quad {
+    width: 70px;
+    height: 70px;
+}
+
+.questionFAQ  .colDescIcon {
+    margin-top: 15px;
+}
+
+.rowAskQuestion {
+    margin: 0 auto;
+}
+.rowAskQuestion a {
+    display: block;
+    width: 35%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.submitQuestions {
+    padding-top: 0;
+
+}
+
+.submitQuestions .container {
+    padding-top: 6%;
+    border-top: 1px solid #d6e8ee;
+}
+
+.submitQuestions input {
+    width: 100%;
+    height: 56px;
+}
+
+.submitQuestions .rowForm {
+    margin-top: 30px;
+}
+
+#subjectQuestion {
+    margin-top: 10px;
+}
+
+.submitQuestions textarea {
+    width: 100%;
+    height: 200px;
+    margin-top: 10px;
+    line-height: 56px;
+    background: transparent;
+}
+
+.submitQuestions button {
+    width: 15%;
+    margin-top: 15px;
+}
+
